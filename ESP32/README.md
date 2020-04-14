@@ -7,7 +7,7 @@ I am using [Thonny](https://thonny.org/) on Linux to connect and load all includ
 Explanation of each file included:<br />
 
 - boot.py
-    - First file to run when ESP32 is turned on. While developing I decided to open a command access via local internet connection using [webrepl] (https://docs.micropython.org/en/latest/esp8266/tutorial/repl.html). For this reason it is necessary to edit this file to be compatible with your own internet router (i.e. change SSID and password). Included in this file is equally preparation for use of an oled screen to display the device's ip adddress. Further information follows below. <br />
+    - First file to run when ESP32 is turned on. While developing I decided to open a command access via local internet connection using [webrepl](https://docs.micropython.org/en/latest/esp8266/tutorial/repl.html). For this reason it is necessary to edit this file to be compatible with your own internet router (i.e. change SSID and password). Included in this file is equally preparation for use of an oled screen to display the device's ip adddress. Further information follows below. <br />
 
 - webrepl_cfg.py
     - Must be edited to include a password of your choice, if you wish to access the webrepl that is.
