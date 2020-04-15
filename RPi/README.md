@@ -1,6 +1,10 @@
 ## Python code for connecting and receiving data from ESP32 peripheral bluetooth device
+The code here is to be run only after you have setup the ESP32. You will need to change the parameters in the code found here, specifically entering the MAC address of the ESP32. To discover the MAC address of the ESP32 you can run the following command from the Raspberry Pi 3:
+```
+sudo blescan
+```
 
-bluepy is required for this code. On Raspbian or other Debian-based system:
+Python bluepy module is required for this code. On Raspbian or other Debian-based system:
 ```
 $ sudo apt-get install python-pip libglib2.0-dev
 $ sudo pip install bluepy
